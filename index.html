@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* 基础样式与重置 */
+        /* Base styles and resets */
         * {
             margin: 0;
             padding: 0;
@@ -95,7 +95,7 @@
             background-color: var(--accent-color);
         }
         
-        /* 导航栏 */
+        /* Navigation */
         header {
             position: fixed;
             top: 0;
@@ -142,7 +142,7 @@
             cursor: pointer;
         }
         
-        /* 主页部分 */
+        /* Home section */
         .home {
             height: 100vh;
             display: flex;
@@ -196,7 +196,7 @@
             transform: translateY(-5px);
         }
         
-        /* 关于部分 */
+        /* About section */
         .about-content {
             display: flex;
             align-items: center;
@@ -235,7 +235,7 @@
             font-size: 0.9rem;
         }
         
-        /* 作品集部分 */
+        /* Portfolio section */
         .portfolio {
             background-color: #f8f9fa;
         }
@@ -285,7 +285,7 @@
             margin-bottom: 10px;
         }
         
-        /* 联系部分 */
+        /* Contact section */
         .contact-content {
             display: flex;
             flex-wrap: wrap;
@@ -340,7 +340,7 @@
             font-size: 1.2rem;
         }
         
-        /* 页脚 */
+        /* Footer */
         footer {
             background-color: var(--dark-color);
             color: white;
@@ -381,7 +381,7 @@
             color: #adb5bd;
         }
         
-        /* 响应式设计 */
+        /* Responsive design */
         @media (max-width: 768px) {
             .nav-menu {
                 position: fixed;
@@ -424,16 +424,16 @@
     </style>
 </head>
 <body>
-    <!-- 导航栏 -->
+    <!-- Navigation -->
     <header>
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="logo">我的空间</a>
+                <a href="#" class="logo">My Space</a>
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">关于我</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">作品集</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">联系我</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -442,14 +442,14 @@
         </div>
     </header>
 
-    <!-- 主页部分 -->
+    <!-- Home section -->
     <section id="home" class="home">
         <div class="container">
             <div class="home-content">
-                <h1 class="home-title">你好，我是<span style="color: var(--primary-color);"> 张三</span></h1>
-                <h2 class="home-subtitle">前端开发工程师 & UI设计师</h2>
-                <p class="home-description">我热衷于创造美观、实用且用户友好的网站和应用程序。专注于将创意转化为数字体验。</p>
-                <a href="#portfolio" class="btn">查看我的作品</a>
+                <h1 class="home-title">Hello, I'm <span style="color: var(--primary-color);"> Ba Mingyu</span></h1>
+                <h2 class="home-subtitle">Student at NUIST</h2>
+                <p class="home-description">I'm passionate about creating beautiful, functional, and user-friendly websites and applications. Focused on turning ideas into digital experiences.</p>
+                <a href="#portfolio" class="btn">View My Work</a>
                 <div class="social-links">
                     <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
                     <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
@@ -460,26 +460,25 @@
         </div>
     </section>
 
-    <!-- 关于部分 -->
+    <!-- About section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">关于我</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://placehold.co/400x500/4a6fa5/FFFFFF?text=Profile+Image" alt="个人照片">
+                    <img src="https://placehold.co/400x500/4a6fa5/FFFFFF?text=Profile+Image" alt="Profile Image">
                 </div>
                 <div class="about-text">
-                    <h3>一名充满激情的创意开发者</h3>
-                    <p>你好！我是张三，一名拥有5年经验的前端开发工程师和UI设计师。我擅长将复杂的设计转化为优雅的代码，创造出既美观又实用的用户体验。</p>
-                    <p>我的工作理念是注重细节、追求卓越，并且始终保持对新技术的好奇心和学习热情。我相信好的设计和技术能够改变人们与数字世界的互动方式。</p>
-                    <p>在我的职业生涯中，我已经帮助各种规模的公司实现了他们的数字愿景，从小型创业公司到大型企业。</p>
+                    <h3>A Passionate Creative Developer</h3>
+                    <p>Hello! I'm Ba Mingyu. I specialize in transforming complex designs into elegant code, creating both beautiful and practical user experiences.</p>
+                    <p>My work philosophy focuses on attention to detail, pursuit of excellence, and maintaining curiosity and enthusiasm for learning new technologies. I believe good design and technology can change how people interact with the digital world.</p>
                     <div class="skills">
                         <span class="skill">HTML/CSS</span>
                         <span class="skill">JavaScript</span>
                         <span class="skill">React</span>
                         <span class="skill">Vue.js</span>
-                        <span class="skill">UI/UX设计</span>
-                        <span class="skill">响应式设计</span>
+                        <span class="skill">UI/UX Design</span>
+                        <span class="skill">Responsive Design</span>
                         <span class="skill">Git</span>
                         <span class="skill">Node.js</span>
                     </div>
@@ -488,40 +487,40 @@
         </div>
     </section>
 
-    <!-- 作品集部分 -->
+    <!-- Portfolio section -->
     <section id="portfolio" class="section portfolio">
         <div class="container">
-            <h2 class="section-title">我的作品</h2>
+            <h2 class="section-title">My Work</h2>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="https://placehold.co/400x300/4a6fa5/FFFFFF?text=Project+1" alt="项目1" class="portfolio-image">
+                    <img src="https://placehold.co/400x300/4a6fa5/FFFFFF?text=Project+1" alt="Project 1" class="portfolio-image">
                     <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">电子商务网站</h3>
-                        <p>一个全功能的电子商务平台，具有产品展示、购物车和支付功能。</p>
+                        <h3 class="portfolio-title">E-commerce Website</h3>
+                        <p>A fully functional e-commerce platform with product display, shopping cart, and payment features.</p>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://placehold.co/400x300/166088/FFFFFF?text=Project+2" alt="项目2" class="portfolio-image">
+                    <img src="https://placehold.co/400x300/166088/FFFFFF?text=Project+2" alt="Project 2" class="portfolio-image">
                     <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">旅行博客</h3>
-                        <p>为旅行爱好者设计的响应式博客平台，包含地图集成和照片库。</p>
+                        <h3 class="portfolio-title">Travel Blog</h3>
+                        <p>A responsive blog platform for travel enthusiasts, featuring map integration and photo galleries.</p>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://placehold.co/400x300/4cb5ae/FFFFFF?text=Project+3" alt="项目3" class="portfolio-image">
+                    <img src="https://placehold.co/400x300/4cb5ae/FFFFFF?text=Project+3" alt="Project 3" class="portfolio-image">
                     <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">健康管理应用</h3>
-                        <p>帮助用户跟踪健康数据和健身目标的移动应用程序。</p>
+                        <h3 class="portfolio-title">Health Management App</h3>
+                        <p>A mobile application that helps users track health data and fitness goals.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 联系部分 -->
+    <!-- Contact section -->
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">联系我</h2>
+            <h2 class="section-title">Contact Me</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
@@ -529,8 +528,8 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
-                            <h3>位置</h3>
-                            <p>北京市海淀区</p>
+                            <h3>Location</h3>
+                            <p>Pukou District, Nanjing</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -538,8 +537,8 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div>
-                            <h3>邮箱</h3>
-                            <p>zhangsan@example.com</p>
+                            <h3>Email</h3>
+                            <p>ningyuba@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -547,50 +546,50 @@
                             <i class="fas fa-phone"></i>
                         </div>
                         <div>
-                            <h3>电话</h3>
-                            <p>+86 138 0013 8000</p>
+                            <h3>Phone</h3>
+                            <p>+86 1234567890</p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form">
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="您的姓名" required>
+                            <input type="text" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="您的邮箱" required>
+                            <input type="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="主题" required>
+                            <input type="text" class="form-control" placeholder="Subject" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="您的消息" required></textarea>
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
                         </div>
-                        <button type="submit" class="btn">发送消息</button>
+                        <button type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 页脚 -->
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <a href="#" class="footer-logo">我的空间</a>
+                <a href="#" class="footer-logo">My Space</a>
                 <ul class="footer-links">
-                    <li><a href="#home" class="footer-link">首页</a></li>
-                    <li><a href="#about" class="footer-link">关于我</a></li>
-                    <li><a href="#portfolio" class="footer-link">作品集</a></li>
-                    <li><a href="#contact" class="footer-link">联系我</a></li>
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer-link">Contact</a></li>
                 </ul>
-                <p class="copyright">&copy; 2023 张三. 保留所有权利</p>
+                <p class="copyright">&copy; 2025 Ba Mingyu. All Rights Reserved</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // 简单的导航菜单交互
+        // Simple navigation menu interaction
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
         
@@ -598,14 +597,14 @@
             navMenu.classList.toggle('active');
         });
         
-        // 点击导航链接后关闭菜单
+        // Close menu when clicking on navigation links
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
             });
         });
         
-        // 滚动时改变导航栏样式
+        // Change navigation style on scroll
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
